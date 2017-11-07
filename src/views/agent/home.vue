@@ -11,13 +11,13 @@
       </div>
       <div class="home-left">
           <el-menu>
-            <el-menu-item index="1"><i class="el-icon-setting"></i>一级导航一</el-menu-item>
-            <el-submenu index="2">
-              <template slot="title"><i class="el-icon-setting"></i>二级导航</template>
-              <el-menu-item index="2-1">导航一</el-menu-item>
+            <el-menu-item index="1"><i class="el-icon-goods"></i>产品管理</el-menu-item>
+            <el-menu-item index="2"><i class="el-icon-document"></i>提案管理</el-menu-item>
+            <el-menu-item index="3"><i class="el-icon-news"></i>动态通知</el-menu-item>
+            <el-submenu index="4">
+              <template slot="title"><i class="el-icon-setting"></i>系统设置</template>
+              <el-menu-item index="4-1">角色管理</el-menu-item>
             </el-submenu>
-            <el-menu-item index="3"><i class="el-icon-setting"></i>三级导航一</el-menu-item>
-            <el-menu-item index="4"><i class="el-icon-setting"></i>四级导航一</el-menu-item>
           </el-menu>
       </div>
       <router-view></router-view>
@@ -35,7 +35,7 @@ export default {
 </script>
 <style lang="less" scoped>
 .el-menu{
-  border-right:none; 
+  border-right:none;
 }
 .btn-text{
   color: #FFF;
