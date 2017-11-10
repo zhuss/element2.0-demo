@@ -10,9 +10,9 @@
         </div>
       </div>
       <div class="home-left">
-          <el-menu>
-            <el-menu-item index="1"><i class="el-icon-goods"></i>产品管理</el-menu-item>
-            <el-menu-item index="2"><i class="el-icon-document"></i>提案管理</el-menu-item>
+          <el-menu :router="true">
+            <el-menu-item index="productList"><i class="el-icon-goods"></i>产品管理</el-menu-item>
+            <el-menu-item index="productTable"><i class="el-icon-document"></i>提案管理</el-menu-item>
             <el-menu-item index="3"><i class="el-icon-news"></i>动态通知</el-menu-item>
             <el-submenu index="4">
               <template slot="title"><i class="el-icon-setting"></i>系统设置</template>

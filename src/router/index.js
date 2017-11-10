@@ -9,6 +9,7 @@ import Main from '../views/main.vue'
 import A_Login from '../views/agent/login.vue'
 import A_Home from '../views/agent/home.vue'
 import A_ProductList from '../views/agent/product/list.vue'
+import A_ProductTable from '../views/agent/product/table.vue'
 
 //商家
 import B_Login from '../views/business/login.vue'
@@ -62,6 +63,10 @@ export default new Router({
             path: 'productList',
             name: 'a_productList',
             component: A_ProductList
+          },{
+            path: 'productTable',
+            name: 'a_productTable',
+            component: A_ProductTable
           }]
         }]
     },
